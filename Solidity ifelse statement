@@ -1,5 +1,5 @@
 //SPDX-License-identifier:MIT
-Pragma solidity ^0.8.17
+Pragma solidity ^0.8.17;
 
 contract Ifelse{
     function foo(uint x) public pure returns (uint){
@@ -13,3 +13,12 @@ contract Ifelse{
  }
 
 function ternary(uint _x) public pure returns (uint){
+   if(_x < 10){
+   return 1;
+   }
+   return 2;
+  
+ return _x < 10 ? 1:2;
+   }
+ }
+  
